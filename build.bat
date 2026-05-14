@@ -13,12 +13,12 @@ pip install -r requirements.txt
 if errorlevel 1 goto fail
 
 echo Building portable EXE...
-pyinstaller --noconfirm --clean --onefile --windowed --name MP3Merger app.py
+pyinstaller --noconfirm --clean --onefile --windowed --name ZunioBooks app.py
 if errorlevel 1 goto fail
 
 echo.
 echo Build complete.
-echo EXE location: dist\MP3Merger.exe
+echo EXE location: dist\ZunioBooks.exe
 echo.
 pause
 exit /b 0

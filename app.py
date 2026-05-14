@@ -16,7 +16,7 @@ from PySide6.QtWidgets import (
 )
 
 
-APP_NAME = "MP3 Merger"
+APP_NAME = "ZunioBooks"
 
 
 AVAILABLE_COLUMNS = [
